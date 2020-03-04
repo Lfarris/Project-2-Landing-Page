@@ -1,9 +1,13 @@
 /*************************************************************************************/
-/*** CSS for Smallest-Size width display **************************************************/
+/*** CSS for Smallest-Size width display *********************************************/
 /*************************************************************************************/
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.50em;
 }
 
 /* color is light pink */
@@ -34,66 +38,45 @@
   padding: 1.25em;
 }
 
-.contentsOfBook {
-  display: grid;
-  grid-template-columns: auto;
-}
-
 .main {
-  /* color is white (mostly) */
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid;
-  margin-top: 0px;
-  padding: 0px;
-}
-
-/* color is darker blue */
-.menuOption {
-  background: #00ccff;
-  display: none;
-  float: left;
-  text-align: center;
-  width: 80px;
-}
-
-/* color is tan */
-.navbar {
-  background-color: #ff9966;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  width: 100%;
   margin: 0px;
 }
 
-/* color is Red */
-.navbar a {
-  color: #ff0000;
+/* The navigation bar */
+/* background color is 20% black */
+.navbar {
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* color of text is 95% grey */
+.navbar > div {
+  color: #f2f2f2;
   display: block;
   float: left;
+  font-size: 0.75em;
+  padding: 1.25em;
   text-align: center;
   text-decoration: none;
 }
 
-/* color is Pure Blue for background */ 
-/* other color is yellow */
-.navbar a:hover {
-  background: #0000ff;
-  color: #ffff00;
-}
-
-body {
-  margin: 0px;
-}
-
-h1 {
-  font-size: 1.50em;
+/* when hovering background colr is 87% grey */
+/* and color of text is 100% black */
+.navbar > div:hover {
+  background: #dddddd;
+  color: #000000;
 }
 
 /*************************************************************************************/
 /*** CSS for Mid-size width display **************************************************/
 /*************************************************************************************/
 @media screen and (min-width: 560px) {
+
+  h1 {
+    font-size: 1.25em;
+  }
 
 /* color is light pink */
   #section1 {
@@ -116,10 +99,6 @@ h1 {
 /* color is light green */
   #section4 {
     background-color: #99ffcc;
-    font-size: 1.25em;
-  }
-
-  h1 {
     font-size: 1.25em;
   }
 }
@@ -129,6 +108,10 @@ h1 {
 /*************************************************************************************/
 @media screen and (min-width: 765px) {
 
+  h1 {
+    font-size: 1.75em;
+  }
+
 /* color is light pink */
   #section1 {
     background-color: #ffccff;
@@ -150,10 +133,6 @@ h1 {
 /* color is light green */
   #section4 {
     background-color: #99ffcc;
-    font-size: 1.75em;
-  }
-
-  h1 {
     font-size: 1.75em;
   }
 }
