@@ -1,5 +1,10 @@
 # Landing Page Project
 
-This project consists of a main body of chapter sections and a top navigation menu where chapter links appear when you click on the 'Table of Contents'. After clicking on the table of contents, the active link is displayed by hovering over it and appears with a dark blue background and yellow lettering. Clicking on any of the chapter links will take you to the beginning of that chapter. Scrolling through the chapters can be done independent of the navigation bar or selection of chapter links. 
+This project consists of a main body of chapter sections and a top navigation menu. You can see which item in the navigation menu is active, by hovering over the item in the menu, because of how the item changes colors. 
 
-The JavaScript section is primarily two sections. The first event handler is invoked when the 'Table of Contents' is clicked and displays the chapter links. The second event handler is invoked when a chapter link is clicked and causes a scrolling action through the main body of chapter sections. The chapter links can be toggled off and on by clicking on the table of contents and normally disappear after being clicked and during the scrolling process.
+Clicking on any of the active menu items will take you to the beginning of that chapter. Scrolling through the chapters can be done independent of the navigation bar or selection of active menu items. 
+
+I realized I could refactor the JavaScript for this project into tighter code, but I chose to separate it into longer sections for clarity and debugging purposes.
+
+
+
