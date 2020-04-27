@@ -43,7 +43,7 @@ h1 {
 }
 
 /* The navigation bar */
-/* background color is 20% black */
+/* background color is 80% black 20% white */
 .navbar {
   background-color: #333333;
   position: fixed;
@@ -51,9 +51,7 @@ h1 {
   width: 100%;
 }
 
-/* color of text is 95% grey */
 .navbar > div {
-  color: #f2f2f2;
   display: block;
   float: left;
   font-size: 0.75em;
@@ -62,12 +60,62 @@ h1 {
   text-decoration: none;
 }
 
-/* when hovering background colr is 87% grey */
-/* and color of text is 100% black */
-.navbar > div:hover {
-  background: #dddddd;
+.menuOption1 {
+  background: #ffccff;
+ /* color is light pink */
   color: #000000;
+ /* color of text is black */;
 }
+
+.menuOption1:hover {
+  background: #ffccff;
+ /* color is light pink */
+  color: #ff0000;
+  /* color of text is red */;
+}
+
+.menuOption2 {
+  background: #ffff00;
+ /* color is yellow */
+  color: #000000;
+ /* color of text is black */;
+}
+
+.menuOption2:hover {
+  background: #ffff00;
+ /* color is yellow */
+  color: #ff0000;
+  /* color of text is red */;
+}
+
+.menuOption3 {
+  background: #99ccff;
+ /* color is blue */
+  color: #000000;
+ /* color of text is black */;
+}
+
+.menuOption3:hover {
+  background: #99ccff;
+ /* color is blue */
+  color: #ff0000;
+  /* color of text is red */;
+}
+
+.menuOption4 {
+  background: #99ffcc;
+ /* color is green */
+  color: #000000;
+ /* color of text is black */;
+}
+
+.menuOption4:hover {
+  background: #99ffcc;
+ /* color is green */
+  color: #ff0000;
+  /* color of text is red */;
+}
+
 
 /*************************************************************************************/
 /*** CSS for Mid-size width display **************************************************/
