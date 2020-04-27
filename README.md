@@ -33,12 +33,13 @@ Then I have a section that does the actual scrolling ----------
        we subtract the fractional distance from the number 1 which 
        gives us the exact distance needed to reach the border between
        each section. 
-
+              
        Are we greater than one pixel from our final destination
        If yes, execute Group A, otherwise execute Group B 
            Group A: Here we scroll down 
                Repeat until we are less than one pixel from destination 
-           Group B: Here we scroll the final fractional distance to finish the                 	scroll
+           Group B: Here we scroll the final fractional distance to finish 
+           the scroll
            Once we reach this point, we need to recompute the distance
            based on what section we are scrolling to 
 
