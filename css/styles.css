@@ -1,0 +1,189 @@
+/*************************************************************************************/
+/*** CSS for Smallest-Size width display *********************************************/
+/*************************************************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.50em;
+}
+
+/* color is light pink */
+#section1 {
+  background-color: #ffccff;
+  font-size: 1.0em;
+  padding: 1.25em;
+}
+
+/* color is yellow */
+#section2 {
+  background-color: #ffff00;
+  font-size: 1.0em;
+  padding: 1.25em;
+}
+
+/* color is light blue */
+#section3 {
+  background-color: #99ccff;
+  font-size: 1.0em;
+  padding: 1.25em;
+}
+
+/* color is light green */
+#section4 {
+  background-color: #99ffcc;
+  font-size: 1.0em;
+  padding: 1.25em;
+}
+
+.main {
+  margin: 0px;
+}
+
+.main.active_section {
+  text-decoration: underline wavy blue;
+}
+
+/* The navigation bar */
+/* background color where there is not a button
+/* is 80% black 20% white */
+.navbar {
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar > div {
+  display: block;
+  float: left;
+  font-size: 0.75em;
+  padding: 1.25em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* --------------------------------------- */
+/*set default background of buttons black text on light gray*/
+.btn {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+/* --------------------------------------- */
+/* if we hover over the button go from default background */
+/* to pink background and red text */
+.menuOption1:hover {
+  background-color: #ffccff;
+  color: #ff0000;
+}
+
+/* Also if button is active class do the same as */
+/* hover colors */
+.menuOption1.btn.active {
+  background-color: #ffccff;
+  color: #ff0000;
+}
+
+/* --------------------------------------- */
+.menuOption2:hover {
+  background-color: #ffff00;
+  color: #ff0000;
+}
+
+.menuOption2.btn.active {
+  background-color: #ffff00;
+  color: #ff0000;
+}
+
+/* --------------------------------------- */
+.menuOption3:hover {
+  background-color: #99ccff;
+  color: #ff0000;
+}
+
+.menuOption3.btn.active {
+  background-color: #99ccff;
+  color: #ff0000;
+}
+
+/* --------------------------------------- */
+.menuOption4:hover {
+  background-color: #99ffcc;
+  color: #ff0000;
+}
+
+.menuOption4.btn.active {
+  background-color: #99ffcc;
+  color: #ff0000;
+}
+
+/*************************************************************************************/
+/*** CSS for Mid-size width display **************************************************/
+/*************************************************************************************/
+@media screen and (min-width: 560px) {
+
+  h1 {
+    font-size: 1.25em;
+  }
+
+/* color is light pink */
+  #section1 {
+    background-color: #ffccff;
+    font-size: 1.25em;
+  }
+
+/* color is yellow */
+  #section2 {
+    background-color: #ffff00;
+    font-size: 1.25em;
+  }
+
+/* color is light blue */
+  #section3 {
+    background-color: #99ccff;
+    font-size: 1.25em;
+  }
+
+/* color is light green */
+  #section4 {
+    background-color: #99ffcc;
+    font-size: 1.25em;
+  }
+}
+
+/*************************************************************************************/
+/*** CSS for Widest width display ****************************************************/
+/*************************************************************************************/
+@media screen and (min-width: 765px) {
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+/* color is light pink */
+  #section1 {
+    background-color: #ffccff;
+    font-size: 1.75em;
+  }
+
+/* color is yellow */
+  #section2 {
+    background-color: #ffff00;
+    font-size: 1.75em;
+  }
+
+/* color is light blue */
+  #section3 {
+    background-color: #99ccff;
+    font-size: 1.75em;
+  }
+
+/* color is light green */
+  #section4 {
+    background-color: #99ffcc;
+    font-size: 1.75em;
+  }
+}
